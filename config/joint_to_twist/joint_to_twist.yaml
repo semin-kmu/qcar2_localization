@@ -1,0 +1,27 @@
+joint_to_twist_node:
+  ros__parameters:
+    use_sim_time: false
+
+    joint_topic: /qcar2_joint
+    twist_topic: /wheel/twist_raw
+    base_frame: base_link
+
+    velocity_index: 0
+    velocity_scale: 6.86591637693e-06
+    velocity_offset: 0.0
+    max_linear_speed: 1.0
+    velocity_deadband: 0.02
+
+    lowpass_alpha: 0.2
+    max_dt: 0.2
+
+    use_position_fallback: false
+    position_index: 0
+    position_scale: 1.0
+
+    twist_cov_vx: 0.2
+    twist_cov_vy: 1000.0
+    twist_cov_vz: 1000.0
+    twist_cov_wx: 1000.0
+    twist_cov_wy: 1000.0
+    twist_cov_wz: 1000.0
