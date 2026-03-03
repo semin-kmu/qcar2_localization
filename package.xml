@@ -2,10 +2,10 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>qcar2_localization</name>
-  <version>0.1.0</version>
+  <version>1.0.0</version>
   <description>QCar2 localization package using Cartographer + robot_localization EKF pipeline.</description>
-  <maintainer email="eiffeltower1206@kookmin.ac.kr">JSM</maintainer>
-  <license>Apache-2.0</license>
+  <maintainer email="eiffeltower1206@kookmin.ac.kr">semin-jeon</maintainer>
+  <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
